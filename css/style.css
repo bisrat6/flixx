@@ -347,3 +347,64 @@ section h2 {
 #movie-details, #show-details {
     position: relative;
 }
+
+
+/* ===================== MEDIA QUERIES ===================== */
+@media screen and (max-width: 768px) {
+  /* Logo adjustments */
+  .main-header .logo,
+  .main-footer .container .logo {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main-header .container {
+    align-items: flex-start;
+  }
+
+  .main-header ul li {
+    margin:0 10px;
+  }
+
+  /* Details Top Section */
+  .details-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .details-top img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+  }
+
+  .details-top .btn {
+    width: 100%;
+  }
+
+  /* Search section */
+  .search .container form {
+    padding: 0 10px;
+  }
+
+  .search-flex {
+    flex-direction: column;
+  }
+
+  .search .container form input[type='text'] {
+    margin: 0 0 10px 0;
+  }
+
+  /* Footer */
+  .main-footer .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-footer .container .social-links {
+    margin-top: 10px;
+    justify-content: center;
+  }
+}
