@@ -91,7 +91,10 @@ ul {
 }
 
 .main-header .logo {
-  color: #fff;
+background: linear-gradient(to right, #ffcc00, #ff9900, #ff6600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
@@ -155,7 +158,10 @@ ul {
 }
 
 .main-footer .container .logo {
-  color: #fff;
+  background: linear-gradient(to right, #ffcc00, #ff9900, #ff6600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
